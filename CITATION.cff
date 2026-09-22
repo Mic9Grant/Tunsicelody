@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use or reference Tunsicelody, please cite it using the metadata in this file."
+title: "Tunsicelody"
+type: software
+authors:
+  - family-names: "Grant"
+    given-names: "Danvion Michael"
+repository-code: "https://github.com/Mic9Grant/Tunsicelody"
+url: "https://github.com/Mic9Grant/Tunsicelody"
+abstract: "Tunsicelody is a software project and documented musical concept coined and defined by Danvion Michael Grant in 2026. The term describes a unified melodic identity in which a memorable primary tune and interconnected supporting melodies function as one cohesive musical expression."
+keywords:
+  - music
+  - melody
+  - composition
+  - music theory
+  - tunsicelody
