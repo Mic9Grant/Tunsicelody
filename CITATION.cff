@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Grant"
     given-names: "Danvion Michael"
+    orcid: "https://orcid.org/0009-0002-7523-965X"
 version: "v1.0"
 date-released: "2026-09-22"
 doi: "10.5281/zenodo.22899423"
