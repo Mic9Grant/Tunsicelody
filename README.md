@@ -4,6 +4,7 @@
 
 **Creator / Coiner:** Danvion Michael Grant  
 **Professional / Artist Name:** Michael 9 Grant  
+**ORCID:** [0009-0002-7523-965X](https://orcid.org/0009-0002-7523-965X)  
 **Pronunciation:** tun-sih-SELL-oh-dee  
 **IPA:** /ˌtʌn.sɪˈsɛl.ə.di/  
 **Part of speech:** noun  
@@ -28,6 +29,10 @@ The term **Tunsicelody** was coined and defined by **Danvion Michael Grant** in 
 
 This repository serves as a public software and documentation record associated with the Tunsicelody concept and application.
 
+## Identity and archival chain
+
+**Danvion Michael Grant → ORCID 0009-0002-7523-965X → Zenodo DOI 10.5281/zenodo.22899423 → GitHub v1.0**
+
 ## Documented uses
 
 - **Tunsicelody** software/application published through this GitHub repository.
@@ -38,6 +43,8 @@ This repository serves as a public software and documentation record associated 
 ## Suggested citation
 
 Grant, Danvion Michael. *Tunsicelody: Definition and Origin Record v1.0*. Zenodo, 2026. https://doi.org/10.5281/zenodo.22899423
+
+ORCID: https://orcid.org/0009-0002-7523-965X
 
 ## Intellectual-property note
 
