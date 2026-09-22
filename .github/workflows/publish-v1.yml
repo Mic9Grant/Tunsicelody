@@ -1,0 +1,31 @@
+name: Publish Tunsicelody v1.0
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-v1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Publish v1.0 release if missing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v1.0 >/dev/null 2>&1; then
+            echo "Release v1.0 already exists. No changes made."
+            exit 0
+          fi
+
+          gh release create v1.0 \
+            --target "${GITHUB_SHA}" \
+            --title "v1.0 — Tunsicelody Definition and Origin Record" \
+            --notes-file RELEASE_NOTES_v1.0.md
