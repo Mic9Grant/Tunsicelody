@@ -12,7 +12,8 @@
 **Coinage year:** 2026  
 **Archived release:** v1.0  
 **Zenodo DOI:** https://doi.org/10.5281/zenodo.22899423  
-**Public definition page:** https://mic9grant.github.io/Tunsicelody/definition.html
+**Public definition page:** https://mic9grant.github.io/Tunsicelody/definition.html  
+**Sitemap:** https://mic9grant.github.io/Tunsicelody/sitemap.xml
 
 ## Permanent definition record
 
