@@ -13,6 +13,15 @@
 **Archived release:** v1.0  
 **Zenodo DOI:** https://doi.org/10.5281/zenodo.22899423
 
+## Permanent definition record
+
+The dedicated definition and citation record is available in two forms:
+
+- [DEFINITION.md](DEFINITION.md) — canonical text definition and citation record.
+- [definition.html](definition.html) — standalone human-readable definition page.
+
+These files separate the terminology record from the interactive software interface while linking the term to the creator identity, ORCID, Zenodo DOI, and GitHub archive.
+
 ## Definition
 
 **Tunsicelody** is a unified musical composition or melodic identity in which a memorable primary tune is integrated with interconnected supporting melodies so that the combined melodic material functions as one cohesive musical expression.
