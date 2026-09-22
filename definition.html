@@ -93,10 +93,70 @@
       line-height: 1;
       letter-spacing: -.04em;
     }
+    .pronunciation-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: .75rem;
+      margin-bottom: 1.75rem;
+    }
     .pronunciation {
       color: var(--muted);
       font-size: 1.05rem;
-      margin-bottom: 1.75rem;
+    }
+    .speak-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .45rem;
+      min-height: 42px;
+      padding: .55rem .8rem;
+      border: 1px solid var(--gold);
+      border-radius: 999px;
+      background: transparent;
+      color: var(--link);
+      font: 700 .88rem/1 Arial, sans-serif;
+      cursor: pointer;
+    }
+    .speak-button:hover,
+    .speak-button:focus-visible {
+      background: rgba(213,170,84,.12);
+      outline: none;
+    }
+    .speak-button svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      flex: 0 0 auto;
+    }
+    .speak-status {
+      width: 100%;
+      color: var(--muted);
+      font: .85rem/1.4 Arial, sans-serif;
+      min-height: 1.2em;
+    }
+    .usage-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: .85rem;
+    }
+    .usage-card,
+    .example-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      background: #101218;
+    }
+    .usage-card strong {
+      color: var(--gold);
+    }
+    .examples {
+      display: grid;
+      gap: .8rem;
+    }
+    .example-card {
+      margin: 0;
+      font-style: italic;
     }
     .definition {
       border-left: 4px solid var(--gold);
@@ -143,6 +203,7 @@
     @media (max-width: 620px) {
       dl { grid-template-columns: 1fr; gap: .1rem; }
       dd { margin-bottom: .65rem; }
+      .usage-grid { grid-template-columns: 1fr; }
     }
     @media print {
       :root { --bg:#fff; --panel:#fff; --text:#000; --muted:#444; --line:#bbb; --gold:#8a6418; --link:#000; }
@@ -155,7 +216,14 @@
   <main>
     <div class="eyebrow">Definition and Citation Record</div>
     <h1>Tunsicelody</h1>
-    <div class="pronunciation"><strong>tun-sih-SELL-oh-dee</strong> · /ˌtʌn.sɪˈsɛl.ə.di/ · noun · plural: <em>tunsicelodies</em></div>
+    <div class="pronunciation-row">
+      <div class="pronunciation"><strong>tun-sih-SELL-oh-dee</strong> · /ˌtʌn.sɪˈsɛl.ə.di/ · noun · plural: <em>tunsicelodies</em></div>
+      <button class="speak-button" id="speakTunsicelody" type="button" aria-label="Hear how Tunsicelody is pronounced" title="Hear pronunciation">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 16.5 12zm-2.5-8.7v2.06a7.5 7.5 0 0 1 0 13.28v2.06a9.5 9.5 0 0 0 0-17.4z"/></svg>
+        <span>Hear pronunciation</span>
+      </button>
+      <div class="speak-status" id="speakStatus" aria-live="polite"></div>
+    </div>
 
     <section class="definition" aria-label="Formal definition">
       <strong>Tunsicelody</strong> is a unified musical composition or melodic identity in which a memorable primary tune is integrated with interconnected supporting melodies so that the combined melodic material functions as one cohesive musical expression.
@@ -181,6 +249,26 @@
     <h2>Conceptual distinction</h2>
     <p>A single melody can be understood as one identifiable sequence or line. <strong>Tunsicelody</strong> refers to the larger melodic identity produced when a primary tune and its supporting melodic elements function together as a coordinated musical expression.</p>
 
+    <h2>How the term can be used</h2>
+    <div class="usage-grid">
+      <div class="usage-card"><strong>Composition:</strong> describe the overall melodic identity created by a lead tune and supporting melodic lines.</div>
+      <div class="usage-card"><strong>Songwriting:</strong> discuss how hooks, response phrases, bass movement, and counter-melodies combine into one recognizable melodic expression.</div>
+      <div class="usage-card"><strong>Arrangement:</strong> identify the relationship between a principal melody and the supporting parts that reinforce or answer it.</div>
+      <div class="usage-card"><strong>Music analysis:</strong> refer to a piece's combined melodic structure when analyzing more than one melodic line at a time.</div>
+      <div class="usage-card"><strong>Production:</strong> describe the melodic identity that emerges from layered vocals, instruments, motifs, and recurring melodic figures.</div>
+      <div class="usage-card"><strong>Discussion and criticism:</strong> use the term when writing or speaking about how multiple melodic elements function together as a unified whole.</div>
+    </div>
+
+    <h2>Sentence examples</h2>
+    <div class="examples">
+      <p class="example-card">“The composer's latest arrangement featured a soaring <strong>tunsicelody</strong> that carried the entire orchestral section.”</p>
+      <p class="example-card">“When building a jazz-fusion track, balancing the rhythm section against a complex lead <strong>tunsicelody</strong> is essential.”</p>
+      <p class="example-card">“The vocal hook, answering guitar phrase, and moving bass line combine to form the song's <strong>tunsicelody</strong>.”</p>
+      <p class="example-card">“The producer simplified the supporting melodies so the <strong>tunsicelody</strong> would remain clear and memorable.”</p>
+      <p class="example-card">“Although the verses use different melodic figures, the recurring chorus restores the composition's central <strong>tunsicelody</strong>.”</p>
+      <p class="example-card">“The album contains several distinct <strong>tunsicelodies</strong>, each built around a recognizable principal tune.”</p>
+    </div>
+
     <h2>Creator statement</h2>
     <p>Danvion Michael Grant coined and defined <strong>Tunsicelody</strong> in 2026 as terminology for describing this larger interacting melodic structure. Grant also works professionally and artistically as <strong>Michael 9 Grant</strong>.</p>
 
@@ -200,5 +288,38 @@
       Creator: Danvion Michael Grant · ORCID 0009-0002-7523-965X · DOI 10.5281/zenodo.22899423
     </footer>
   </main>
+  <script>
+    (() => {
+      const button = document.getElementById('speakTunsicelody');
+      const status = document.getElementById('speakStatus');
+      if (!button) return;
+
+      button.addEventListener('click', () => {
+        if (!('speechSynthesis' in window)) {
+          status.textContent = 'Audio pronunciation is not supported in this browser.';
+          return;
+        }
+
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance('tun sih SELL oh dee');
+        utterance.lang = 'en-US';
+        utterance.rate = 0.72;
+        utterance.pitch = 1;
+        utterance.volume = 1;
+
+        utterance.onstart = () => {
+          status.textContent = 'Playing: tun-sih-SELL-oh-dee';
+        };
+        utterance.onend = () => {
+          status.textContent = '';
+        };
+        utterance.onerror = () => {
+          status.textContent = 'Pronunciation audio could not be played.';
+        };
+
+        window.speechSynthesis.speak(utterance);
+      });
+    })();
+  </script>
 </body>
 </html>
