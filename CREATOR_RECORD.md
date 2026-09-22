@@ -5,6 +5,7 @@
 **Term:** Tunsicelody  
 **Creator / Coiner:** Danvion Michael Grant  
 **Professional / Artist Name:** Michael 9 Grant  
+**ORCID:** https://orcid.org/0009-0002-7523-965X  
 **GitHub account:** Mic9Grant  
 **Coinage year:** 2026  
 **Pronunciation:** tun-sih-SELL-oh-dee  
@@ -24,6 +25,12 @@ The name **Tunsicelody** is a coined portmanteau derived from the concepts of **
 
 Danvion Michael Grant created the term to distinguish the identity of an entire interacting melodic structure from a single isolated melody. The concept can encompass a principal tune together with counter-melodies, bass movement, harmonic lines, motifs, and other supporting melodic elements.
 
+## Creator identity chain
+
+**Danvion Michael Grant → ORCID 0009-0002-7523-965X → Zenodo DOI 10.5281/zenodo.22899423 → GitHub v1.0**
+
+The ORCID identifier provides a persistent creator identity for Danvion Michael Grant and links the creator record to the archived Tunsicelody v1.0 software record.
+
 ## Public-use record
 
 This GitHub repository, **Mic9Grant/Tunsicelody**, contains a software application associated with the term.
@@ -34,11 +41,11 @@ This document was added to the repository on **September 22, 2026** as a formal 
 
 Version **v1.0** of the Tunsicelody Definition and Origin Record was archived on Zenodo on **September 22, 2026** and assigned the persistent DOI **10.5281/zenodo.22899423**.
 
-The repository's Git history, GitHub release record, Zenodo archive, and external music-release metadata can be consulted when establishing documented public-use dates.
+The repository's Git history, GitHub release record, Zenodo archive, ORCID creator identity, and external music-release metadata can be consulted when establishing documented public-use dates.
 
 ## Citation form
 
-**Grant, Danvion Michael. “Tunsicelody.” Coined musical term and conceptual framework, 2026.**
+**Grant, Danvion Michael. “Tunsicelody.” Coined musical term and conceptual framework, 2026. ORCID: https://orcid.org/0009-0002-7523-965X**
 
 For the archived software project:
 
