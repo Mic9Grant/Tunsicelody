@@ -29,6 +29,29 @@ The word **Tunsicelody** is a coined portmanteau formed from **tune + music + me
 
 A single melody can be understood as one identifiable sequence or line. **Tunsicelody** refers to the larger melodic identity produced when a primary tune and its supporting melodic elements function together as a coordinated musical expression.
 
+## How the term can be used
+
+**Composition:** Use *tunsicelody* to describe the overall melodic identity created by a lead tune and supporting melodic lines.
+
+**Songwriting:** Use it when discussing how hooks, response phrases, bass movement, and counter-melodies combine into one recognizable melodic expression.
+
+**Arrangement:** Use it to identify the relationship between a principal melody and supporting parts that reinforce, answer, or interact with it.
+
+**Music analysis:** Use it when referring to a piece's combined melodic structure rather than analyzing only one isolated melodic line.
+
+**Production:** Use it to describe the melodic identity that emerges from layered vocals, instruments, motifs, and recurring melodic figures.
+
+**Discussion and criticism:** Use it when writing or speaking about how multiple melodic elements function together as a unified whole.
+
+## Sentence examples
+
+- “The composer's latest arrangement featured a soaring **tunsicelody** that carried the entire orchestral section.”
+- “When building a jazz-fusion track, balancing the rhythm section against a complex lead **tunsicelody** is essential.”
+- “The vocal hook, answering guitar phrase, and moving bass line combine to form the song's **tunsicelody**.”
+- “The producer simplified the supporting melodies so the **tunsicelody** would remain clear and memorable.”
+- “Although the verses use different melodic figures, the recurring chorus restores the composition's central **tunsicelody**.”
+- “The album contains several distinct **tunsicelodies**, each built around a recognizable principal tune.”
+
 ## Creator statement
 
 Danvion Michael Grant coined and defined **Tunsicelody** in 2026 as terminology for describing this larger interacting melodic structure. Grant also works professionally and artistically as **Michael 9 Grant**.
