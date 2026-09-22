@@ -1,12 +1,16 @@
 # Tunsicelody
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22899423.svg)](https://doi.org/10.5281/zenodo.22899423)
+
 **Creator / Coiner:** Danvion Michael Grant  
 **Professional / Artist Name:** Michael 9 Grant  
 **Pronunciation:** tun-sih-SELL-oh-dee  
 **IPA:** /ˌtʌn.sɪˈsɛl.ə.di/  
 **Part of speech:** noun  
 **Plural:** tunsicelodies  
-**Coinage year:** 2026
+**Coinage year:** 2026  
+**Archived release:** v1.0  
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22899423
 
 ## Definition
 
@@ -29,10 +33,11 @@ This repository serves as a public software and documentation record associated 
 - **Tunsicelody** software/application published through this GitHub repository.
 - **“Tunsicelody”** used as the title of an original musical work by Danvion Michael Grant / Michael 9 Grant.
 - Written definition and explanatory framework authored by Danvion Michael Grant.
+- Version **v1.0** archived on Zenodo with DOI **10.5281/zenodo.22899423**.
 
 ## Suggested citation
 
-Grant, Danvion Michael. *Tunsicelody*. Musical term, concept, and software project, 2026. GitHub repository: **Mic9Grant/Tunsicelody**.
+Grant, Danvion Michael. *Tunsicelody: Definition and Origin Record v1.0*. Zenodo, 2026. https://doi.org/10.5281/zenodo.22899423
 
 ## Intellectual-property note
 
