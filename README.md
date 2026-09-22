@@ -11,14 +11,16 @@
 **Plural:** tunsicelodies  
 **Coinage year:** 2026  
 **Archived release:** v1.0  
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.22899423
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22899423  
+**Public definition page:** https://mic9grant.github.io/Tunsicelody/definition.html
 
 ## Permanent definition record
 
 The dedicated definition and citation record is available in two forms:
 
 - [DEFINITION.md](DEFINITION.md) — canonical text definition and citation record.
-- [definition.html](definition.html) — standalone human-readable definition page.
+- [definition.html](definition.html) — standalone source file for the human-readable definition page.
+- **Public definition page:** https://mic9grant.github.io/Tunsicelody/definition.html
 
 These files separate the terminology record from the interactive software interface while linking the term to the creator identity, ORCID, Zenodo DOI, and GitHub archive.
 
